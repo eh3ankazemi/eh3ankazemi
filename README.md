@@ -57,7 +57,6 @@ A cryptocurrency market platform built with modern web technologies, providing m
 - [mrx.iran.liara.run](https://marx.iran.liara.run) ⚠️it's not working, now⚠️
 - [github.com/eh3ankazemi/marx](https://github.com/ehsan54321/marx)
 
-
 ---
 
 ## 🎯 Goals
