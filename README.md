@@ -88,7 +88,7 @@ A cryptocurrency market platform built with modern web technologies, providing m
 ## 💬 Portfoliooo 🎵
 
 - Crypto
-- Anime
+- Movie & Anime
 - and more...
 
 > "Code. Learn. Build. Repeat." 🚀
