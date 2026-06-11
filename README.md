@@ -1,53 +1,95 @@
-## Welcome 👋
+# Hi there 👋 I'm Ehsan Kazemi
 
-## 👯 Skills
+💻 Self-Taught Software Developer
 
-- `JavaScript` good
-- `React.js` & `Next.js` great
-- `TypeScript` great
-- `Redux` it's Easy
-- `<HTML>` + `{CSS}` + `$SASS` + `CssFlex` great
-- `CssGird` good
-- `Tailwind:CSS` great
-- `Git` & `Github` good
-- `/^[ Regular Expressions (RegExp) ]$/` not bad
-- `Python` it's Easy
-- `<? php ?>` it's Easy
-- `Search Engine Optimization (SEO)` good
-<!-- - `Rust` it's Easy -->
-- Other skills not mentioned...
+🤖 Interested in Artificial Intelligence & Machine Learning
 
-## 🤔 ABOUT ME?
+🌐 Web Developer with experience in React.js, Next.js, and TypeScript
 
-سلام من احسان کاظمی هستم یک برنامه نویس خودآموز و علاقه مند به همکاری با یک تیم حرفه ای و به دنبال پیشرفت و یادگیری
+🚀 Always learning, building, and improving
 
-## 👨‍💻 Projects
+---
 
-### مارکس کت - Marks Ket
-.من سابقه شغلی ندارم اما یک پروژه خیلی کاملی در وب دارم که این پروژه در حد یک سایت کامل درباری ارز های دیجتال است
+## 🛠 Tech Stack
 
-تکنولوژی های ساخت:
+### Frontend
+
+- Front-End Developer (React, Next.js)
+- TypeScript / JavaScript
+- Redux
+- CSS / SASS
+- Tailwind CSS
+
+### Tools
+
+- Git / GitHub
+- Regular Expressions (RegExp)
+- Progressive Web Apps (PWA)
+
+---
+
+## 🤖 Currently Learning
+
+- Machine Learning & Deep learning (PyTorch)
+- Data Science (Scikit-Learn)
+- Artificial Intelligence Engineering
+
+---
+
+## 👨‍💻 Featured Project
+
+### 📈 Marks Ket
+
+A cryptocurrency market platform built with modern web technologies, providing market data, charts, and a responsive user experience.
+
+#### Tech Stack
+
 - React.js
 - Next.js
-- Next.js API route
-- TailwindCSS
-- Chart.js
-- Scss
 - TypeScript
+- Tailwind CSS
+- SCSS
+- Chart.js
 - PWA
+- Next.js API Routes
 
-لینک مرتبط : [marx.iran.liara.run ➚](https://marx.iran.liara.run)
+🔗 Live Demo:  
+- [mrx.iran.liara.run](https://marx.iran.liara.run) ⚠️it's not working, now⚠️
+- [github.com/eh3ankazemi/marx](https://github.com/ehsan54321/marx)
 
-## 📖 Education
 
-- `web`
+---
 
-## 🗣 Languages
+## 🎯 Goals
 
-- `English` not bad
-- `Persian (Farsi)` MOTHER TONGUE
+- Build real-world AI projects
+- Contribute to open-source projects
+- Gain professional experience in AI and software development
+- Work with talented teams and continue growing as a developer
+- Problem Solving & Sontinuous Learing
+
+---
+
+## 🌍 Languages
+
+- 🇮🇷 Persian (Native)
+- 🇬🇧 English (Good)
+
+---
+
+## 📫 Connect With Me
+
+- Portfolio: [ehsan-kazemi.ir](http://ehsan-kazemi.ir/)
+- GitHub: [github.com/eh3ankazemi](https://github.com/eh3ankazemi)
+- LinkedIn: [linkedin.com/in/ehsan-kazemi-b3b353237](https://www.linkedin.com/in/ehsan-kazemi-b3b353237/)
+- Email: eh3ankazemii@gmail.com
+
+---
 
 ## 💬 Portfoliooo 🎵
 
-- AI
+- Crypto
+- Anime
 - and more...
+
+> "Code. Learn. Build. Repeat." 🚀
