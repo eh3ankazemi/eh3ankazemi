@@ -1,806 +1,476 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html lang=en>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ehsan kazemi - Personal Portfolio</title>
-
-  <!-- favicon -->
-  <link rel="shortcut icon" href="./assets/images/icon/logo.ico" type="image/x-icon">
-
-  
-    <!-- custom css link -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!-- google font link -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<meta charset=UTF-8>
+<meta http-equiv=X-UA-Compatible content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Ehsan kazemi - Personal Portfolio</title>
+<link rel="shortcut icon" href=./assets/images/icon/logo.ico type=image/x-icon>
+<link rel=stylesheet href=./assets/css/style.min.css>
+<link rel=preconnect href=https://fonts.googleapis.com>
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel=stylesheet>
 </head>
-
 <body>
-
-  <!--
-    - #MAIN
-  -->
-
-  <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/person/my-avatar.png" alt="Ehsan kazemi" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Ehsan kazemi">Ehsan kazemi</h1>
-
-          <p class="title">AI Engineer,<br/>Full Stack Developer</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:eh3ankazemii@gmail.com" class="contact-link">eh3ankazemii@gmail.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+989212154476" class="contact-link">+(98) 921-215-4476</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23">Esfand 10, 1387</time>
-              <time datetime="1982-06-23">February 28, 2009</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Isfahan Province, Iran</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            🚀 About Me
-            I am passionate about Artificial Intelligence, Machine Learning, and Software Development. My primary focus is on building and learning AI-driven solutions using Python and related technologies such as PyTorch and Scikit-Learn.
-            <br/>
-            💻 Alongside AI, I have experience in web development with React and Next.js and have developed several projects, including a personal website and other web applications.
-            <br/>
-            🎯 I am committed to continuous learning, solving real-world problems, and improving my technical skills. Fast learning, analytical thinking, responsibility, and effective teamwork are among the qualities I strive to bring to every project.
-            <br/>
-            🌱 I am currently seeking internship and professional opportunities in AI and software development where I can contribute, gain hands-on experience, and continue growing as a developer.
-          </p>
-
-          <p>
-           🎯 Goals
-            Build real-world AI projects
-            <br/>
-            Contribute to open-source projects
-            <br/>
-            Gain professional experience in AI and software development
-            <br/>
-            Work with talented teams and continue growing as a developer
-            <br/>
-            Problem Solving & Sontinuous Learing
-          </p>
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">What i'm doing</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
-
-                <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
-
-                <p class="service-item-text">
-                  High-quality development of sites at the professional level.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">LLM</h4>
-
-                <p class="service-item-text">
-                  Professional development of applications for iOS and Android.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Photography</h4>
-
-                <p class="service-item-text">
-                  I make high-quality photos of any category at a professional level.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/person/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
-        </div>
-      </article>
-
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">High school of computer science</h4>
-
-              <span>1402 — 1405</span>
-              <span>2023 — 2026</span>
-
-              <p class="timeline-text">
-                Diploma in computer science, Shahrivar Art School, Khomeini shahr
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Python Development</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Machine Learning & Deep learning(PyTorch for NLP)</h5>
-                <data value="60">60%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 60%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Data Science (Scikit-Learn)</h5>
-                <data value="75">75%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 75%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Front-End Developer (React, Next.js)</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Tailwind CSS / SASS</h5>
-                <data value="99">99%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 99%;"></div>
-              </div>
-
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">TypeScript / JavaScript</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-            </li>
-
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Git / GitHub</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-            </li>
-
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Problem Solving & Sontinuous Learing</h5>
-                <data value="100">100%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 100%;"></div>
-              </div>
-              
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>AI Applications</button>
-            </li>
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>AI Applications</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://ehsan-kazemi.ir/" target="_blank">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/website-demo/linkstack.png" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Personal web site</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://links.ehsan-kazemi.ir/" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/website-demo/linkstack.png" alt="personal site" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Linkstack</h3>
-
-                <p class="project-category">All important links for Ehsan Kazemi</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/website-demo/marx.png" alt="Marx ket" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Web development</h3>
-
-                <p class="project-category">cryptocurrency market platform</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/website-demo/abjad.png" alt="abjad" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Abjad</h3>
-
-                <p class="project-category">change abjad to numbers</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/website-demo/this.png" alt="Old Personal website" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Old Personal website</h3>
-
-                <p class="project-category">it's was ugly and make a new one</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/website-demo/fa-date.png" alt="farsi date" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Farsi date</h3>
-
-                <p class="project-category">say time and date</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
-      <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog/fa-date.png" alt="Farsi date" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2026-02-23">Fab 23, 2026</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">it's not active yet</h3>
-
-                  <p class="blog-text">
-                    it's not active yet⚠️⚠️⚠️⚠️.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d214969.158050427!2d51.6870261!3d32.6622889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fbc35fe8c326799%3A0x7ab57816ef5837f5!2sIsfahan%2C%20Isfahan%20Province%2C%20Iran!5e0!3m2!1sen!2s!4v1782336783316!5m2!1sen!2s"
-              width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input disabled></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
-
-      </article>
-
-    </div>
-
-  </main>
-
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+<main>
+<aside class=sidebar data-sidebar>
+<div class=sidebar-info>
+<figure class=avatar-box>
+<img src=./assets/images/person/my-avatar.png alt="Ehsan kazemi" width=80>
+</figure>
+<div class=info-content>
+<h1 class=name title="Ehsan kazemi">Ehsan kazemi</h1>
+<p class=title>AI Engineer,<br>Full Stack Developer</p>
+</div>
+<button class=info_more-btn data-sidebar-btn>
+<span>Show Contacts</span>
+<ion-icon name=chevron-down></ion-icon>
+</button>
+</div>
+<div class=sidebar-info_more>
+<div class=separator></div>
+<ul class=contacts-list>
+<li class=contact-item>
+<div class=icon-box>
+<ion-icon name=mail-outline></ion-icon>
+</div>
+<div class=contact-info>
+<p class=contact-title>Email</p>
+<a href=mailto:eh3ankazemii@gmail.com class=contact-link>eh3ankazemii@gmail.com</a>
+</div>
+</li>
+<li class=contact-item>
+<div class=icon-box>
+<ion-icon name=phone-portrait-outline></ion-icon>
+</div>
+<div class=contact-info>
+<p class=contact-title>Phone</p>
+<a href=tel:+989212154476 class=contact-link>+(98) 921-215-4476</a>
+</div>
+</li>
+<li class=contact-item>
+<div class=icon-box>
+<ion-icon name=calendar-outline></ion-icon>
+</div>
+<div class=contact-info>
+<p class=contact-title>Birthday</p>
+<time datetime=1982-06-23>Esfand 10, 1387</time>
+<time datetime=1982-06-23>February 28, 2009</time>
+</div>
+</li>
+<li class=contact-item>
+<div class=icon-box>
+<ion-icon name=location-outline></ion-icon>
+</div>
+<div class=contact-info>
+<p class=contact-title>Location</p>
+<address>Isfahan Province, Iran</address>
+</div>
+</li>
+</ul>
+<div class=separator></div>
+<ul class=social-list>
+<li class=social-item>
+<a href=# class=social-link>
+<ion-icon name=logo-facebook></ion-icon>
+</a>
+</li>
+<li class=social-item>
+<a href=# class=social-link>
+<ion-icon name=logo-twitter></ion-icon>
+</a>
+</li>
+<li class=social-item>
+<a href=# class=social-link>
+<ion-icon name=logo-instagram></ion-icon>
+</a>
+</li>
+</ul>
+</div>
+</aside>
+<div class=main-content>
+<nav class=navbar>
+<ul class=navbar-list>
+<li class=navbar-item>
+<button class="navbar-link active" data-nav-link>About</button>
+</li>
+<li class=navbar-item>
+<button class=navbar-link data-nav-link>Resume</button>
+</li>
+<li class=navbar-item>
+<button class=navbar-link data-nav-link>Portfolio</button>
+</li>
+<li class=navbar-item>
+<button class=navbar-link data-nav-link>Blog</button>
+</li>
+<li class=navbar-item>
+<button class=navbar-link data-nav-link>Contact</button>
+</li>
+</ul>
+</nav>
+<article class="about active" data-page=about>
+<header>
+<h2 class="h2 article-title">About me</h2>
+</header>
+<section class=about-text>
+<p>
+🚀 About Me I am passionate about Artificial Intelligence, Machine Learning, and Software Development. My primary focus is on building and learning AI-driven solutions using Python and related technologies such as PyTorch and Scikit-Learn.
+<br>
+💻 Alongside AI, I have experience in web development with React and Next.js and have developed several projects, including a personal website and other web applications.
+<br>
+🎯 I am committed to continuous learning, solving real-world problems, and improving my technical skills. Fast learning, analytical thinking, responsibility, and effective teamwork are among the qualities I strive to bring to every project.
+<br>
+🌱 I am currently seeking internship and professional opportunities in AI and software development where I can contribute, gain hands-on experience, and continue growing as a developer.
+</p>
+<p>
+🎯 Goals Build real-world AI projects
+<br>
+Contribute to open-source projects
+<br>
+Gain professional experience in AI and software development
+<br>
+Work with talented teams and continue growing as a developer
+<br>
+Problem Solving & Sontinuous Learing
+</p>
+</section>
+<section class=service>
+<h3 class="h3 service-title">What i'm doing</h3>
+<ul class=service-list>
+<li class=service-item>
+<div class=service-icon-box>
+<img src=./assets/images/icon/icon-design.svg alt="design icon" width=40>
+</div>
+<div class=service-content-box>
+<h4 class="h4 service-item-title">Web design</h4>
+<p class=service-item-text>
+The most modern and high-quality design made at a professional level.
+</p>
+</div>
+</li>
+<li class=service-item>
+<div class=service-icon-box>
+<img src=./assets/images/icon/icon-dev.svg alt="Web development icon" width=40>
+</div>
+<div class=service-content-box>
+<h4 class="h4 service-item-title">Web development</h4>
+<p class=service-item-text>
+High-quality development of sites at the professional level.
+</p>
+</div>
+</li>
+<li class=service-item>
+<div class=service-icon-box>
+<img src=./assets/images/icon/icon-app.svg alt="mobile app icon" width=40>
+</div>
+<div class=service-content-box>
+<h4 class="h4 service-item-title">LLM</h4>
+<p class=service-item-text>
+Professional development of applications for iOS and Android.
+</p>
+</div>
+</li>
+<li class=service-item>
+<div class=service-icon-box>
+<img src=./assets/images/icon/icon-photo.svg alt="camera icon" width=40>
+</div>
+<div class=service-content-box>
+<h4 class="h4 service-item-title">Photography</h4>
+<p class=service-item-text>
+I make high-quality photos of any category at a professional level.
+</p>
+</div>
+</li>
+</ul>
+</section>
+<div class=modal-container data-modal-container>
+<div class=overlay data-overlay></div>
+<section class=testimonials-modal>
+<button class=modal-close-btn data-modal-close-btn>
+<ion-icon name=close-outline></ion-icon>
+</button>
+<div class=modal-img-wrapper>
+<figure class=modal-avatar-box>
+<img src=./assets/images/person/avatar-1.png alt="Daniel lewis" width=80 data-modal-img>
+</figure>
+<img src=./assets/images/icon/icon-quote.svg alt="quote icon">
+</div>
+<div class=modal-content>
+<h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+<time datetime=2021-06-14>14 June, 2021</time>
+<div data-modal-text>
+<p>
+Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+</p>
+</div>
+</div>
+</section>
+</div>
+</article>
+<article class=resume data-page=resume>
+<header>
+<h2 class="h2 article-title">Resume</h2>
+</header>
+<section class=timeline>
+<div class=title-wrapper>
+<div class=icon-box>
+<ion-icon name=book-outline></ion-icon>
+</div>
+<h3 class=h3>Education</h3>
+</div>
+<ol class=timeline-list>
+<li class=timeline-item>
+<h4 class="h4 timeline-item-title">High school of computer science</h4>
+<span>1402 — 1405</span>
+<span>2023 — 2026</span>
+<p class=timeline-text>
+Diploma in computer science, Shahrivar Art School, Khomeini shahr
+</p>
+</li>
+</ol>
+</section>
+<section class=skill>
+<h3 class="h3 skills-title">My skills</h3>
+<ul class="skills-list content-card">
+<li class=skills-item>
+<div class=title-wrapper>
+<h5 class=h5>Python Development</h5>
+<data value=80>80%</data>
+</div>
+<div class=skill-progress-bg>
+<div class=skill-progress-fill style=width:80%></div>
+</div>
+</li>
+<li class=skills-item>
+<div class=title-wrapper>
+<h5 class=h5>Machine Learning & Deep learning(PyTorch for NLP)</h5>
+<data value=60>60%</data>
+</div>
+<div class=skill-progress-bg>
+<div class=skill-progress-fill style=width:60%></div>
+</div>
+</li>
+<li class=skills-item>
+<div class=title-wrapper>
+<h5 class=h5>Data Science (Scikit-Learn)</h5>
+<data value=75>75%</data>
+</div>
+<div class=skill-progress-bg>
+<div class=skill-progress-fill style=width:75%></div>
+</div>
+</li>
+<li class=skills-item>
+<div class=title-wrapper>
+<h5 class=h5>Front-End Developer (React, Next.js)</h5>
+<data value=90>90%</data>
+</div>
+<div class=skill-progress-bg>
+<div class=skill-progress-fill style=width:90%></div>
+</div>
+</li><li class=skills-item>
+<div class=title-wrapper>
+<h5 class=h5>Tailwind CSS / SASS</h5>
+<data value=99>99%</data>
+</div>
+<div class=skill-progress-bg>
+<div class=skill-progress-fill style=width:99%></div>
+</div>
+</li><li class=skills-item>
+<div class=title-wrapper>
+<h5 class=h5>TypeScript / JavaScript</h5>
+<data value=90>90%</data>
+</div>
+<div class=skill-progress-bg>
+<div class=skill-progress-fill style=width:90%></div>
+</div>
+</li>
+<li class=skills-item>
+<div class=title-wrapper>
+<h5 class=h5>Git / GitHub</h5>
+<data value=80>80%</data>
+</div>
+<div class=skill-progress-bg>
+<div class=skill-progress-fill style=width:80%></div>
+</div>
+</li>
+<li class=skills-item>
+<div class=title-wrapper>
+<h5 class=h5>Problem Solving & Sontinuous Learing</h5>
+<data value=100>100%</data>
+</div>
+<div class=skill-progress-bg>
+<div class=skill-progress-fill style=width:100%></div>
+</div>
+</li>
+</ul>
+</section>
+</article>
+<article class=portfolio data-page=portfolio>
+<header>
+<h2 class="h2 article-title">Portfolio</h2>
+</header>
+<section class=projects>
+<ul class=filter-list>
+<li class=filter-item>
+<button class=active data-filter-btn>All</button>
+</li>
+<li class=filter-item>
+<button data-filter-btn>Web development</button>
+</li>
+<li class=filter-item>
+<button data-filter-btn>AI Applications</button>
+</li>
+</ul>
+<div class=filter-select-box>
+<button class=filter-select data-select>
+<div class=select-value data-selecct-value>Select category</div>
+<div class=select-icon>
+<ion-icon name=chevron-down></ion-icon>
+</div>
+</button>
+<ul class=select-list>
+<li class=select-item>
+<button data-select-item>All</button>
+</li>
+<li class=select-item>
+<button data-select-item>Web development</button>
+</li>
+<li class=select-item>
+<button data-select-item>AI Applications</button>
+</li>
+</ul>
+</div>
+<ul class=project-list>
+<li class="project-item active" data-filter-item data-category="web development">
+<a href=https://ehsan-kazemi.ir/ target=_blank>
+<figure class=project-img>
+<div class=project-item-icon-box>
+<ion-icon name=eye-outline></ion-icon>
+</div>
+<img src=./assets/images/website-demo/linkstack.png alt=finance loading=lazy>
+</figure>
+<h3 class=project-title>Personal web site</h3>
+<p class=project-category>Web development</p>
+</a>
+</li>
+<li class="project-item active" data-filter-item data-category="web development">
+<a href=https://links.ehsan-kazemi.ir/ target=_blank>
+<figure class=project-img>
+<div class=project-item-icon-box>
+<ion-icon name=eye-outline></ion-icon>
+</div>
+<img src=./assets/images/website-demo/linkstack.png alt="personal site" loading=lazy>
+</figure>
+<h3 class=project-title>Linkstack</h3>
+<p class=project-category>All important links for Ehsan Kazemi</p>
+</a>
+</li>
+<li class="project-item active" data-filter-item data-category="web development">
+<a href=#>
+<figure class=project-img>
+<div class=project-item-icon-box>
+<ion-icon name=eye-outline></ion-icon>
+</div>
+<img src=./assets/images/website-demo/marx.png alt="Marx ket" loading=lazy>
+</figure>
+<h3 class=project-title>Web development</h3>
+<p class=project-category>cryptocurrency market platform</p>
+</a>
+</li>
+<li class="project-item active" data-filter-item data-category="web development">
+<a href=#>
+<figure class=project-img>
+<div class=project-item-icon-box>
+<ion-icon name=eye-outline></ion-icon>
+</div>
+<img src=./assets/images/website-demo/abjad.png alt=abjad loading=lazy>
+</figure>
+<h3 class=project-title>Abjad</h3>
+<p class=project-category>change abjad to numbers</p>
+</a>
+</li>
+<li class="project-item active" data-filter-item data-category="web development">
+<a href=#>
+<figure class=project-img>
+<div class=project-item-icon-box>
+<ion-icon name=eye-outline></ion-icon>
+</div>
+<img src=./assets/images/website-demo/this.png alt="Old Personal website" loading=lazy>
+</figure>
+<h3 class=project-title>Old Personal website</h3>
+<p class=project-category>it's was ugly and make a new one</p>
+</a>
+</li>
+<li class="project-item active" data-filter-item data-category="web development">
+<a href=#>
+<figure class=project-img>
+<div class=project-item-icon-box>
+<ion-icon name=eye-outline></ion-icon>
+</div>
+<img src=./assets/images/website-demo/fa-date.png alt="farsi date" loading=lazy>
+</figure>
+<h3 class=project-title>Farsi date</h3>
+<p class=project-category>say time and date</p>
+</a>
+</li>
+</ul>
+</section>
+</article>
+<article class=blog data-page=blog>
+<header>
+<h2 class="h2 article-title">Blog</h2>
+</header>
+<section class=blog-posts>
+<ul class=blog-posts-list>
+<li class=blog-post-item>
+<a href=#>
+<figure class=blog-banner-box>
+<img src=./assets/images/blog/fa-date.png alt="Farsi date" loading=lazy>
+</figure>
+<div class=blog-content>
+<div class=blog-meta>
+<p class=blog-category>Design</p>
+<span class=dot></span>
+<time datetime=2026-02-23>Fab 23, 2026</time>
+</div>
+<h3 class="h3 blog-item-title">it's not active yet</h3>
+<p class=blog-text>
+it's not active yet⚠️⚠️⚠️⚠️.
+</p>
+</div>
+</a>
+</li>
+</ul>
+</section>
+</article>
+<article class=contact data-page=contact>
+<header>
+<h2 class="h2 article-title">Contact</h2>
+</header>
+<section class=mapbox data-mapbox>
+<figure>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d214969.158050427!2d51.6870261!3d32.6622889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fbc35fe8c326799%3A0x7ab57816ef5837f5!2sIsfahan%2C%20Isfahan%20Province%2C%20Iran!5e0!3m2!1sen!2s!4v1782336783316!5m2!1sen!2s" width=400 height=300 style=border:0 allowfullscreen loading=lazy referrerpolicy=strict-origin-when-cross-origin></iframe>
+</figure>
+</section>
+<section class=contact-form>
+<h3 class="h3 form-title">Contact Form</h3>
+<form action=# class=form data-form>
+<div class=input-wrapper>
+<input name=fullname class=form-input placeholder="Full name" required data-form-input>
+<input type=email name=email class=form-input placeholder="Email address" required data-form-input>
+</div>
+<textarea name=message class=form-input placeholder="Your Message" required data-form-input disabled></textarea>
+<button class=form-btn type=submit disabled data-form-btn>
+<ion-icon name=paper-plane></ion-icon>
+<span>Send Message</span>
+</button>
+</form>
+</section>
+</article>
+</div>
+</main>
+<script src=./assets/js/script.min.js></script>
+<script type=module src=https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js></script>
+<script nomodule src=https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js></script>
 </body>
-
 </html>
