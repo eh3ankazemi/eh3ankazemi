@@ -15,7 +15,6 @@
 
 🚀 Always learning, building, and improving
 
----
 
 <h2 align="center">🛠 Tech Stack</h2>
 
@@ -41,7 +40,7 @@
 - Progressive Web Apps (PWA)
 - Mongodb
 
-<!-- ---
+<!-- 
 
 <h2 align="center">👨‍💻 Featured Project</h2>
 
@@ -67,7 +66,6 @@ A cryptocurrency market platform built with modern web technologies, providing m
 - [github.com/eh3ankazemi/marx](https://github.com/eh3ankazemi/marx)
 
 --- -->
----
 
 <h2 align="center">🎯 Goals</h2>
 
@@ -76,19 +74,15 @@ A cryptocurrency market platform built with modern web technologies, providing m
 - Gain professional experience in AI and software development
 - Work with talented teams and continue growing as a developer
 - Problem Solving & Sontinuous Learing
-
----
+ 
 
 <h2 align="center">🌍 Languages</h2>
 
 - 🇮🇷 Persian (Native)
 - 🇬🇧 English (Good)
 
----
 
-<h2 align="center">📫 Find me on
-
-</h2>
+<h2 align="center">📫 Find me on</h2>
 
 <div align="center">
         <a href="mailto:eh3ankazemii@gmail.com" target="_blank"><img alt="Mail"
@@ -102,7 +96,6 @@ A cryptocurrency market platform built with modern web technologies, providing m
         </a>
 </div>
 
----
 
 <h2 align="center">💬 Portfoliooo 🎵</h2>
 
