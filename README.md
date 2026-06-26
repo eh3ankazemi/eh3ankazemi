@@ -42,7 +42,6 @@
 - Machine Learning & Deep learning (PyTorch)
 - Data Science (Scikit-Learn)
 - Artificial Intelligence Engineering
-
 <!-- ---
 
 <h2 align="center">👨‍💻 Featured Project</h2>
@@ -70,7 +69,6 @@ A cryptocurrency market platform built with modern web technologies, providing m
 
 --- -->
 
-## 
 <h2 align="center">🎯 Goals</h2>
 
 - Build real-world AI projects
@@ -88,7 +86,9 @@ A cryptocurrency market platform built with modern web technologies, providing m
 
 ---
 
-<h2 align="center">📫 Socials</h2>
+<h2 align="center">📫 Find me on
+
+</h2>
 
 <div align="center">
         <a href="mailto:eh3ankazemii@gmail.com" target="_blank"><img alt="Mail"
