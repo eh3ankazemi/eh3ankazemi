@@ -68,6 +68,7 @@ A cryptocurrency market platform built with modern web technologies, providing m
 - [github.com/eh3ankazemi/marx](https://github.com/eh3ankazemi/marx)
 
 --- -->
+---
 
 <h2 align="center">🎯 Goals</h2>
 
