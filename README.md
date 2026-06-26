@@ -20,28 +20,27 @@
 <h2 align="center">🛠 Tech Stack</h2>
 
 
-<h3>Frontend</h3>
+<h3>Full Stack Developer</h3>
 
 - Front-End Developer (React, Next.js)
+- Back-End Developer (Next.js API)
 - TypeScript / JavaScript
-- Redux
 - CSS / SASS
 - Tailwind CSS
 
+<h3>AI Engineer</h3>
+
+- Machine Learning & Deep learning (PyTorch)
+- Data Science (Scikit-Learn)
+- Artificial Intelligence Engineering
 
 <h3 align="left">Tools</h3>
 
 - Git / GitHub
 - Regular Expressions (RegExp)
 - Progressive Web Apps (PWA)
+- Mongodb
 
----
-
-<h2 align="center">🤖 Currently Learning</h2>
-
-- Machine Learning & Deep learning (PyTorch)
-- Data Science (Scikit-Learn)
-- Artificial Intelligence Engineering
 <!-- ---
 
 <h2 align="center">👨‍💻 Featured Project</h2>
