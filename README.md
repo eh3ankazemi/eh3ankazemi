@@ -86,13 +86,7 @@
 </div>
 
 <br/>
-<h2 align="center">💬 Portfoliooo 🎵</h2>
-
-- Crypto
-- Movie & Anime
-- and more...
-
-<br/>
+<h2 align="center">🤸‍♀️ Activity</h2>
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=eh3ankazemi&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
@@ -100,10 +94,11 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=eh3ankazemi&radius=16&theme=react&area=true&order=5" height="300" alt="activity-graph graph"  />
 </div>
 <br/>
+
 <samp>
     <p align="center">
         ════ ⋆★⋆ ════
         <br/>
-        "Code. Learn. Build. Repeat 👨‍💻"
+        "Code. Learn. Build. Repeat 🦾"
     </p>
 </samp>
