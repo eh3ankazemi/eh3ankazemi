@@ -80,8 +80,8 @@
         <a href="https://www.linkedin.com/in/eh3ankazemi/"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn" target="_blanc"></a>
         <a href="https://twitter.com/eh3ankazemi"><img src="https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white" alt="X - Twitter" target="_blanc"></a>
         <a href="https://instagram.com/eh3ankazemi"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white" alt="Instagram" target="_blanc"></a>
-        <!-- <a href="https://www.youtube.com/c/" target="_blank"><img alt="Youtube"
-                        src="https://img.shields.io/badge/-Youtube-FF0000?style=flat-square&logo=Youtube&logoColor=white"> -->
+        <a href="https://www.youtube.com/c/" target="_blank"><img alt="Youtube"
+                        src="https://img.shields.io/badge/-Youtube-FF0000?style=flat-square&logo=Youtube&logoColor=white">
         </a>
 </div>
 
@@ -92,6 +92,12 @@
 - Movie & Anime
 - and more...
 
+<br/>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=eh3ankazemi&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=eh3ankazemi&radius=16&theme=react&area=true&order=5" height="300" alt="activity-graph graph"  />
+</div>
 <samp>
     <p align="center">
         ════ ⋆★⋆ ════
