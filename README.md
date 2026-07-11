@@ -1,6 +1,6 @@
 <h1 align="center">
         <samp>&gt; Hey There!, I am
-                <b><a target="_blank" href="https://portfolio.ehsan-kazemi.ir/">Ehsan Kazemi</a></b>
+                <b><a target="_blank" href="https://ehsan-kazemi.ir/">Ehsan Kazemi</a></b>
         </samp>
 </h1>
 
@@ -18,45 +18,53 @@
 
 ### Programming languages
 
-<br/>
+<!-- <br/> -->
 
 ![Programming languages](https://skillicons.dev/icons?i=py,js,ts,md)
 
 <!-- cpp -->
+<!-- <img src="https://skillicons.dev/icons?i=py,js,ts,md" height="45" alt="Programming languages" /> -->
 
 ### AI Engineer
 
-<br/>
+<!-- <br/> -->
 
 ![AI Engineer](https://skillicons.dev/icons?i=pytorch,sklearn)
 
+<!-- <img src="https://skillicons.dev/icons?i=https://skillicons.dev/icons?i=pytorch,sklearn" height="45" alt="AI Engineer skills" /> -->
+
 ### Front-end
 
-<br/>
+<!-- <br/> -->
 
 ![Front-end](https://skillicons.dev/icons?i=nextjs,react,astro,html,css,bootstrap,tailwind,styledcomponents,emotion,materialui)
 
-<!-- <img src="https://skillicons.dev/icons?i=nextjs,react,astro,html,css,bootstrap,tailwind,styledcomponents,emotion,materialui" height="45" alt="express logo"  /> -->
+<!--<img src="https://skillicons.dev/icons?i=nextjs,react,astro,html,css,bootstrap,tailwind,styledcomponents,emotion,materialui" height="45" alt="Front-end Skills"  /> -->
 
 ### Back-end
 
-<br/>
+<!-- <br/> -->
 
 ![Back-end](https://skillicons.dev/icons?i=nodejs,express,nextjs)
 
+<!-- <img src="https://skillicons.dev/icons?i=nodejs,express,nextjs" height="45" alt="Back-end skills" /> -->
+
 ### Database
 
-<br/>
+<!-- <br/> -->
 
 ![Database](https://skillicons.dev/icons?i=mongodb,redis)
 
 <!-- postgres,sqlite -->
+<!-- <img src="https://skillicons.dev/icons?i=mongodb,redis"  alt="Database"  /> -->
 
 ### General + Tools
 
-<br/>
+<!-- <br/> -->
 
 ![General + Tools](https://skillicons.dev/icons?i=linux,bash,windows,vim,anaconda,regex,git,github,docker,pycharm,vscode,postman,npm,bun,yarn,webpack,vite,nginx,arduino)
+
+<!-- <img src="https://skillicons.dev/icons?i=linux,bash,windows,vim,anaconda,regex,git,github,docker,pycharm,vscode,postman,npm,bun,yarn,webpack,vite,nginx,arduino"  alt="General + Tools" /> -->
 
 <h2 align="center">🎯 Goals</h2>
 
