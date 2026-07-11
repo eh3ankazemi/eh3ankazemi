@@ -4,7 +4,6 @@
         </samp>
 </h1>
 
-
 <br/>
 
 💻 Self-Taught Software Developer
@@ -15,57 +14,49 @@
 
 🚀 Always learning, building, and improving
 
-
 <h2 align="center">🛠 Tech Stack</h2>
 
+### Programming languages
 
-<h3>Full Stack Developer</h3>
+<br/>
 
-- Front-End Developer (React, Next.js)
-- Back-End Developer (Next.js API)
-- TypeScript / JavaScript
-- CSS / SASS
-- Tailwind CSS
+![Programming languages](https://skillicons.dev/icons?i=py,js,ts,md)
 
-<h3>AI Engineer</h3>
+<!-- cpp -->
 
-- Machine Learning & Deep learning (PyTorch)
-- Data Science (Scikit-Learn)
-- Artificial Intelligence Engineering
+### AI Engineer
 
-<h3 align="left">Tools</h3>
+<br/>
 
-- Git / GitHub
-- Regular Expressions (RegExp)
-- Progressive Web Apps (PWA)
-- Mongodb
+![AI Engineer](https://skillicons.dev/icons?i=pytorch,sklearn)
 
-<!-- 
+### Front-end
 
-<h2 align="center">👨‍💻 Featured Project</h2>
+<br/>
 
+![Front-end](https://skillicons.dev/icons?i=nextjs,react,astro,html,css,bootstrap,tailwind,styledcomponents,emotion,materialui)
 
-<h2 align="left">📈 Marks Ket</h2>
+<!-- <img src="https://skillicons.dev/icons?i=nextjs,react,astro,html,css,bootstrap,tailwind,styledcomponents,emotion,materialui" height="45" alt="express logo"  /> -->
 
-A cryptocurrency market platform built with modern web technologies, providing market data, charts, and a responsive user experience.
+### Back-end
 
-<h4>Tech Stack</h4>
+<br/>
 
-- React.js
-- Next.js
-- TypeScript
-- Tailwind CSS
-- SCSS
-- Chart.js
-- PWA
-- Next.js API Routes
+![Back-end](https://skillicons.dev/icons?i=nodejs,express,nextjs)
 
-🔗 Live Demo:
+### Database
 
-- [mrx.iran.liara.run](https://marx.iran.liara.run) ⚠️it's not working, now⚠️
-- [github.com/eh3ankazemi/marx](https://github.com/eh3ankazemi/marx)
+<br/>
 
---- -->
+![Database](https://skillicons.dev/icons?i=mongodb,redis)
+
+<!-- postgres,sqlite -->
+
+### General + Tools
+
+<br/>
+
+![General + Tools](https://skillicons.dev/icons?i=linux,bash,windows,vim,anaconda,regex,git,github,docker,pycharm,vscode,postman,npm,bun,yarn,webpack,vite,nginx,arduino)
 
 <h2 align="center">🎯 Goals</h2>
 
@@ -74,13 +65,11 @@ A cryptocurrency market platform built with modern web technologies, providing m
 - Gain professional experience in AI and software development
 - Work with talented teams and continue growing as a developer
 - Problem Solving & Sontinuous Learing
- 
 
 <h2 align="center">🌍 Languages</h2>
 
 - 🇮🇷 Persian (Native)
 - 🇬🇧 English (Good)
-
 
 <h2 align="center">📫 Find me on</h2>
 
@@ -102,8 +91,6 @@ A cryptocurrency market platform built with modern web technologies, providing m
 - Crypto
 - Movie & Anime
 - and more...
-
-
 
 <samp>
     <p align="center">
